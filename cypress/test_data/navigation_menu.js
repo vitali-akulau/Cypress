@@ -9,4 +9,4 @@ export const CLINICAL_SUMMARIES_SECTION = [
   'Shoulder & Elbow', 
   'Spine', 
   'Sports Medicine'
-]
+];
