@@ -8,7 +8,7 @@ import AdvancedSearchPage from '../page_object/AdvancedSearchPage';
 
 describe('Home page', () => {
   beforeEach(() => {
-    cy.log(`Open Home page`);
+    cy.log('Open Home page');
     HomePage.openPage(url.HOME_PAGE);
   });
   
