@@ -6,6 +6,9 @@ class HomePage {
   clinicalSummariesSection = '#d_base_menu_block_0 ul li:nth-child(11)';
   clinicalSummariesSectionItems = this.clinicalSummariesSection + ' li';
 
+  // Register/Log in button
+  registerLoginButton = '#d_base_register_block_1 div';
+
   // Quick search 
   inputField = 'input.autocomplete';
   searchIcon = 'img.search_icon';
