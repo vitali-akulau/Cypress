@@ -1,3 +1,4 @@
+// New user creation
 export const EMAIL_ADDRESS = 'InvalidEmail';
 export const NEW_PASSWORD = 'Password!1';
 export const CONFIRM_NEW_PASSWORD = 'Password!1';
@@ -9,4 +10,5 @@ export const SUBSPECIALTY = 'Basic Science';
 export const SECONDARY_SUBSPECIALTY = 'Ethics';
 export const YEARS_OF_EXPERIANCE = '1-5';
 
+// Warning alert after login with invalid email address
 export const WARNING_NOTIFICATION = 'One or more fields are filled out incorrectly. Please check your entries and try again.';
