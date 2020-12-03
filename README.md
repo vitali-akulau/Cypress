@@ -4,5 +4,5 @@
 
 Ways to launch autotests through command line:
 
-<strong>"Electron": "npx cypress run --spec cypress/integration/\*\*/* </strong> </br>
-<strong>"Сhrome:headless": "npx cypress run --headless --browser chrome --spec cypress/integration/\*\*/*</strong>
+<strong>"Сhrome": "npx cypress run --browser chrome --spec cypress/integration/\*\*/*</strong> </br>
+Launch with <strong>'mochawesome'</strong> report: <strong>npm run test:chrome</strong>
