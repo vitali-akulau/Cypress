@@ -21,6 +21,5 @@
 <h3><strong>Running autotests</strong></h3>
 
 > 1. Through the cypress window: <strong>npx cypress open</strong>
-
 > 2. Through command line [<strong>Without report</strong>]: <strong> npx cypress run --browser chrome --spec 'cypress/integration/**/*'</strong>
 > 3. Through command line [<strong>With report</strong>]: <strong>npm test:chrome</strong>
