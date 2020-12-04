@@ -3,5 +3,13 @@
   "viewportWidth": 1600,
   "viewportHeight": 1200,
   "projectId": "qejcs7",
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "video": false, 
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
