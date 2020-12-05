@@ -17,7 +17,5 @@ Test engine: [Cypress](https://www.cypress.io/)
 
 ## Running autotests
 
-1. Through the cypress window
-> <strong>npx cypress open</strong>
-2. Through terminal 
-> <strong>npm test:chrome</strong>
+1. Through the cypress window: <strong>npx cypress open</strong>
+2. Through terminal: <strong>npm test:chrome</strong>
