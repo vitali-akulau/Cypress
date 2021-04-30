@@ -1,4 +1,4 @@
-import * as url from '../test_data/urls';
+import * as url from '../test_data/urls'
 
 // Get items to array
 export function getItemsToArray(element){
@@ -6,14 +6,14 @@ export function getItemsToArray(element){
   cy.get(element).each(item => {
     cy.wrap(item).invoke('text').then(text => {
       array.push(text.toUpperCase());
-    });
-  });
-  return cy.wrap(array);
+    })
+  })
+  return cy.wrap(array)
 }
 
 // Open link in the same tab
 export function openPageInTheSameTab(element){
   cy.get(element).invoke('attr', 'href').then(href => {
-    cy.visit(url.HOME_PAGE + '/' + href);
-  });
+    cy.visit(url.HOME_PAGE + '/' + href)
+  })
 }

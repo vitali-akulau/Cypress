@@ -7,4 +7,4 @@ export const ADVANCED_SEARCH = [
   'Posterior'
 ];
 // Quick Search verification
-export const QUICK_SEARCH = 'Test';
+export const QUICK_SEARCH = 'Test'

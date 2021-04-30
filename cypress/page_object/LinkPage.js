@@ -1,4 +1,4 @@
 class LinkPage {
-  articleTitle = 'div.text.title';
-};
-export default new LinkPage();
+  articleTitle = 'div.text.title'
+}
+export default new LinkPage()
