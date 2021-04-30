@@ -20,10 +20,9 @@
     "url": "https://github.com/vitali-akulau/Cypress/issues"
   },
   "homepage": "https://github.com/vitali-akulau/Cypress#readme",
-  "dependencies": {
-    "cypress": "^5.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "cypress": "^7.2.0",
     "mocha": "^8.2.1",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0"
